@@ -7,8 +7,8 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "landmark-automation-kenmak"
-    key    = "prod/terraform.tfstate"
+    bucket = "*****"
+    key    = "******"
     region = "us-west-2"
     #dynamodb_table = "terraform-lock"
   }
